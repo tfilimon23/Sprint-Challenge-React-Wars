@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import './components/StarWars.css';
 import './App.css';
 
 import StarWarsCharsList from './components/StarWarsCharsList';
