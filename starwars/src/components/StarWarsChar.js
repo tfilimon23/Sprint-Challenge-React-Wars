@@ -2,11 +2,12 @@ import React from 'react';
 
 import './StarWars.css';
 
-const StarWarsChar = props => {
+const StarWarsChar = ({char}) => {
+    const {name, birth_year} = char
     return (
         <div className ="char-card">
-            <h2> {props.char.name}</h2>
-            <h4>Birth Year: {props.char.birth_year}</h4>
+            <h2> {name}</h2>
+            <h4>Birth Year: {birth_year}</h4>
         </div>
     );
 };
